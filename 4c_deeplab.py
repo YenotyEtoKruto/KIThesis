@@ -1,3 +1,6 @@
+"""
+This script is used to train the DeepLab models
+"""
 import gc
 import os
 import json
@@ -9,7 +12,8 @@ import pandas as pd
 import tensorflow as tf
 from sklearn.metrics import jaccard_score, precision_score, recall_score, f1_score
 import albumentations as A
-from tensorflow.keras.layers import Input, Conv2D, Activation, MaxPooling2D, Add, Concatenate, SeparableConv2D, BatchNormalization, GlobalAveragePooling2D, Reshape, UpSampling2D
+from tensorflow.keras.layers import (Input, Conv2D, Activation, MaxPooling2D, Add, Concatenate, SeparableConv2D,
+                                     BatchNormalization, GlobalAveragePooling2D, Reshape, UpSampling2D)
 from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras import mixed_precision

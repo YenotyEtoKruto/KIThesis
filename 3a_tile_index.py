@@ -2,8 +2,6 @@
 This script is used to write a summary of tiles to tile_index.csv to reduce storage needed
 """
 import csv
-from random import random, shuffle
-
 import numpy as np
 import rasterio
 from rasterio.windows import Window
@@ -14,11 +12,8 @@ data_folder = Path("D:/AHN-processed")    # 4 layers (DTM, Hillshade, Slope, SLR
 label_folder = Path("D:/AHN-mask")    # 1 layer (label)
 output_csv = "tile_index.csv"
 
-#tile_size = 128
-#stride = 96  # overlap (128 - 96 = 32 px overlap)
 tile_size = 256
 stride = 192
-#min_positive_pixels = 200  # skip tiles with barely any mound
 min_positive_pixels = 200
 positive_tiles = 0
 negative_tiles = 0

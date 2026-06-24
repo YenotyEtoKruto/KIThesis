@@ -1,3 +1,6 @@
+"""
+This script is used to train the TransUNet models
+"""
 import os
 import json
 import time

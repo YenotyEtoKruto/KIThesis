@@ -1,17 +1,18 @@
+"""
+This script is used to compare computational costs
+"""
 import matplotlib.pyplot as plt
 import pandas as pd
 import json
 
 
 with open("unet_results_tf.json", "r") as unet_file:
-    # 256x256 input, conv1=16
     unet_results = json.load(unet_file)
     unet_results = pd.DataFrame(unet_results)
     unet_results = unet_results.iloc[::-1]
     unet_results["model"] = "UNet"
 
 with open("transunet_rerun_results_tf.json", "r") as transunet_file:
-    # 256x256 input, conv1=16, num_heads=4, mlp_dim=256, transformer_blocks=4
     transunet_results = json.load(transunet_file)
     transunet_results = pd.DataFrame(transunet_results)
     transunet_results = transunet_results.iloc[::-1]

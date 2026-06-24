@@ -1,15 +1,16 @@
+"""
+This script is used to compare performances of the models
+"""
 import json
 import pandas as pd
 
 with open("unet_results_tf.json", "r") as unet_file:
-    # 256x256 input, conv1=16
     unet_results = json.load(unet_file)
     unet_results = pd.DataFrame(unet_results)
     unet_results = unet_results.iloc[::-1]
     unet_results["model"] = "UNet"
 
 with open("transunet_rerun_results_tf.json", "r") as transunet_file:
-    # 256x256 input, conv1=16, num_heads=4, mlp_dim=256, transformer_blocks=4
     transunet_results = json.load(transunet_file)
     transunet_results = pd.DataFrame(transunet_results)
     transunet_results = transunet_results.iloc[::-1]
@@ -39,10 +40,7 @@ results = results.drop(columns=["combination", "channels", "model"])
 results.insert(0, ("info", "combination"), unet_results["combination"])
 results.insert(1, ("info", "channels"), unet_results["channels"])
 
-# metrics where HIGHER is better
 higher_is_better = ['iou', 'dice_score', 'precision', 'recall']
-
-# metrics where LOWER is better
 lower_is_better = ['training_time_sec', 'model_size', 'combo_loss']
 
 

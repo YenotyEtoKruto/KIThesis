@@ -1,3 +1,6 @@
+"""
+This script is used to train the DenseTrans models
+"""
 import gc
 import os
 import json
@@ -14,7 +17,7 @@ from tensorflow.keras.layers import (Input, Conv2D, MaxPooling2D, Conv2DTranspos
 from tensorflow.keras.models import Model, load_model
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras import mixed_precision
-from swin_functions import SwinTransformerBlock, WindowAttention, StochasticDepth
+from swin_function import SwinTransformerBlock, WindowAttention, StochasticDepth
 import matplotlib.pyplot as plt
 
 

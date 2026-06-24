@@ -1,3 +1,6 @@
+"""
+This script is used to normalize the tiles and save them in a compressed format
+"""
 import rasterio
 import numpy as np
 import pandas as pd

@@ -84,5 +84,3 @@ for base_file in base_dir.glob("*.tif"):
         print(f"Failed processing {name}: {e}")
 
 print("Done.")
-
-

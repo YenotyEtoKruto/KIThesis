@@ -1,3 +1,6 @@
+"""
+This script is used to train the Unet models
+"""
 import gc
 import os
 import json
