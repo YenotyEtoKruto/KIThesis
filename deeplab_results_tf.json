@@ -1,0 +1,167 @@
+[
+    {
+        "combination": "dtm_hillshade_slope_slrm",
+        "channels": 4,
+        "iou": 0.5659417187842593,
+        "dice_score": 0.7228132592618274,
+        "combo_loss": 0.7782334089279175,
+        "precision": 0.8238070920951044,
+        "recall": 0.6438776964743894,
+        "training_time_sec": 2146.8577127456665,
+        "model_size": 285.8276901245117
+    },
+    {
+        "combination": "hillshade_slope_slrm",
+        "channels": 3,
+        "iou": 0.568561907889645,
+        "dice_score": 0.724946723530463,
+        "combo_loss": 0.760411262512207,
+        "precision": 0.8263006852271829,
+        "recall": 0.6457402831892046,
+        "training_time_sec": 2090.0553579330444,
+        "model_size": 285.8243942260742
+    },
+    {
+        "combination": "dtm_slope_slrm",
+        "channels": 3,
+        "iou": 0.5573569986644278,
+        "dice_score": 0.7157729398492587,
+        "combo_loss": 0.7033081650733948,
+        "precision": 0.80027722551297,
+        "recall": 0.6474104342868003,
+        "training_time_sec": 2100.5159866809845,
+        "model_size": 285.8243942260742
+    },
+    {
+        "combination": "dtm_hillshade_slrm",
+        "channels": 3,
+        "iou": 0.5644582885069263,
+        "dice_score": 0.7216022218727595,
+        "combo_loss": 0.801386833190918,
+        "precision": 0.8217934785908122,
+        "recall": 0.643186353701416,
+        "training_time_sec": 2102.6064450740814,
+        "model_size": 285.8243942260742
+    },
+    {
+        "combination": "dtm_hillshade_slope",
+        "channels": 3,
+        "iou": 0.5299677756692459,
+        "dice_score": 0.6927829253624964,
+        "combo_loss": 0.895135760307312,
+        "precision": 0.8365979450765217,
+        "recall": 0.5911598403497101,
+        "training_time_sec": 2110.4334032535553,
+        "model_size": 285.8243942260742
+    },
+    {
+        "combination": "slope_slrm",
+        "channels": 2,
+        "iou": 0.5425150578191759,
+        "dice_score": 0.7034162228356972,
+        "combo_loss": 0.7467862367630005,
+        "precision": 0.7911605457200869,
+        "recall": 0.6331915803478095,
+        "training_time_sec": 2109.1532464027405,
+        "model_size": 285.8210983276367
+    },
+    {
+        "combination": "hillshade_slrm",
+        "channels": 2,
+        "iou": 0.5673197334691832,
+        "dice_score": 0.7239361839890186,
+        "combo_loss": 0.7445671558380127,
+        "precision": 0.7956703672075149,
+        "recall": 0.6640668060439038,
+        "training_time_sec": 2096.8547325134277,
+        "model_size": 285.8210983276367
+    },
+    {
+        "combination": "hillshade_slope",
+        "channels": 2,
+        "iou": 0.5194995607649701,
+        "dice_score": 0.6837771779327604,
+        "combo_loss": 0.8933352828025818,
+        "precision": 0.7973836556022245,
+        "recall": 0.5985056542810986,
+        "training_time_sec": 2128.4730439186096,
+        "model_size": 285.8210983276367
+    },
+    {
+        "combination": "dtm_slrm",
+        "channels": 2,
+        "iou": 0.5706253244081039,
+        "dice_score": 0.7266218308598152,
+        "combo_loss": 0.726546049118042,
+        "precision": 0.814960188072961,
+        "recall": 0.6555616269124774,
+        "training_time_sec": 2108.0289645195007,
+        "model_size": 285.8210983276367
+    },
+    {
+        "combination": "dtm_slope",
+        "channels": 2,
+        "iou": 0.47470359091513514,
+        "dice_score": 0.6437952600638279,
+        "combo_loss": 1.1018495559692383,
+        "precision": 0.8520229902146823,
+        "recall": 0.5173572175235199,
+        "training_time_sec": 2105.498762845993,
+        "model_size": 285.8210983276367
+    },
+    {
+        "combination": "dtm_hillshade",
+        "channels": 2,
+        "iou": 0.46703628092065036,
+        "dice_score": 0.6367071993987198,
+        "combo_loss": 1.0341978073120117,
+        "precision": 0.7854152797286887,
+        "recall": 0.535346384110995,
+        "training_time_sec": 2100.2191140651703,
+        "model_size": 285.8210983276367
+    },
+    {
+        "combination": "slrm",
+        "channels": 1,
+        "iou": 0.5556734035639845,
+        "dice_score": 0.7143831118934852,
+        "combo_loss": 0.8304256200790405,
+        "precision": 0.8671086993386468,
+        "recall": 0.6074004561436852,
+        "training_time_sec": 2099.466182947159,
+        "model_size": 285.81805419921875
+    },
+    {
+        "combination": "slope",
+        "channels": 1,
+        "iou": 0.5299071733864773,
+        "dice_score": 0.6927311442216696,
+        "combo_loss": 0.8749492168426514,
+        "precision": 0.8226985807261037,
+        "recall": 0.598225315974532,
+        "training_time_sec": 2096.965040206909,
+        "model_size": 285.81805419921875
+    },
+    {
+        "combination": "hillshade",
+        "channels": 1,
+        "iou": 0.4720574422079191,
+        "dice_score": 0.6413573664623936,
+        "combo_loss": 1.0323197841644287,
+        "precision": 0.8034175807276486,
+        "recall": 0.5337023662453673,
+        "training_time_sec": 2103.8516175746918,
+        "model_size": 285.81805419921875
+    },
+    {
+        "combination": "dtm",
+        "channels": 1,
+        "iou": 0.42517894601995226,
+        "dice_score": 0.5966674531746834,
+        "combo_loss": 0.7295440435409546,
+        "precision": 0.7297312153025889,
+        "recall": 0.504646963793595,
+        "training_time_sec": 2097.4992201328278,
+        "model_size": 285.81805419921875
+    }
+]

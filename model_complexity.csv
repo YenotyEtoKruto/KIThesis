@@ -1,0 +1,16 @@
+model,parameters,FLOPs
+transunet_dtm.keras,16543681,20407128576
+transunet_dtm_hillshade.keras,16546817,20509889024
+transunet_dtm_hillshade_slope.keras,16549953,20612649472
+transunet_dtm_hillshade_slope_slrm.keras,16553089,20715409920
+transunet_dtm_hillshade_slrm.keras,16549953,20612649472
+transunet_dtm_slope.keras,16546817,20509889024
+transunet_dtm_slope_slrm.keras,16549953,20612649472
+transunet_dtm_slrm.keras,16546817,20509889024
+transunet_hillshade.keras,16543681,20407128576
+transunet_hillshade_slope.keras,16546817,20509889024
+transunet_hillshade_slope_slrm.keras,16549953,20612649472
+transunet_hillshade_slrm.keras,16546817,20509889024
+transunet_slope.keras,16543681,20407128576
+transunet_slope_slrm.keras,16546817,20509889024
+transunet_slrm.keras,16543681,20407128576
