@@ -10,7 +10,7 @@ with open("unet_results_tf.json", "r") as unet_file:
     unet_results = unet_results.iloc[::-1]
     unet_results["model"] = "UNet"
 
-with open("transunet_rerun_results_tf.json", "r") as transunet_file:
+with open("transunet_results_tf.json", "r") as transunet_file:
     transunet_results = json.load(transunet_file)
     transunet_results = pd.DataFrame(transunet_results)
     transunet_results = transunet_results.iloc[::-1]
